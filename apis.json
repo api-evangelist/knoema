@@ -1,0 +1,127 @@
+{
+    "name": "Knoema",
+    "description": "Knoema is the free to use public and open data platform for users with interests in statistics and data analysis, visual storytelling and making infographics and data-driven presentations",
+    "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/knoema-logo.jpg",
+    "tags": [
+        "api provider",
+        "data",
+        "data provider",
+        "financial",
+        "free tier",
+        "general data",
+        "have api",
+        "market data",
+        "rest",
+        "service api",
+        "sign in with facebook",
+        "sign in with google",
+        "sign in with linkedin"
+    ],
+    "created": "2019-12-19",
+    "modified": "2019-12-19",
+    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/knoema\/master\/apis.json",
+    "specificationVersion": "0.14",
+    "apis": [
+        {
+            "name": "Knoema",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/knoema-logo.jpg",
+            "humanURL": "https:\/\/knoema.com",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/knoema-openapi.json"
+                },
+                {
+                    "type": "x-openapi",
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/knoema.json"
+                }
+            ]
+        }
+    ],
+    "include": [],
+    "x-common": [
+        {
+            "type": "Authentication",
+            "url": "https:\/\/knoema.com\/dev\/apps\/authentication"
+        },
+        {
+            "type": "Blog",
+            "url": "http:\/\/blog.knoema.com\/"
+        },
+        {
+            "type": "Blog RSS",
+            "url": "http:\/\/blog.knoema.com\/feeds\/posts\/default?alt=rss"
+        },
+        {
+            "type": "Crunchbase",
+            "url": "https:\/\/crunchbase.com\/organization\/knoema"
+        },
+        {
+            "type": "Developers",
+            "url": "http:\/\/knoema.com\/dev"
+        },
+        {
+            "type": "Documentation",
+            "url": "https:\/\/knoema.com\/dev\/docs"
+        },
+        {
+            "type": "Email",
+            "url": "jobs@knoema.com"
+        },
+        {
+            "type": "Email",
+            "url": "veskin@knoema.com"
+        },
+        {
+            "type": "Email",
+            "url": "jkasputys@knoema.com"
+        },
+        {
+            "type": "Email",
+            "url": "vb@knoema.com"
+        },
+        {
+            "type": "Email",
+            "url": "sales@knoema.com"
+        },
+        {
+            "type": "Email",
+            "url": "info@knoema.com"
+        },
+        {
+            "type": "Email",
+            "url": "support@knoema.com"
+        },
+        {
+            "type": "Getting Started",
+            "url": "https:\/\/knoema.com\/signup"
+        },
+        {
+            "type": "Getting Started",
+            "url": "http:\/\/feedback.knoema.com\/"
+        },
+        {
+            "type": "Github",
+            "url": "https:\/\/github.com\/knoema"
+        },
+        {
+            "type": "Registration",
+            "url": "https:\/\/knoema.com\/sys\/login?returnUrl=%2Fdev%2Fdocs%2Fmeta%2Fdatasets"
+        },
+        {
+            "type": "Terms of Service",
+            "url": "https:\/\/knoema.com\/legal\/termsofuse"
+        },
+        {
+            "type": "Twitter",
+            "url": "https:\/\/twitter.com\/knoema"
+        },
+        {
+            "type": "Website",
+            "url": "https:\/\/knoema.com"
+        }
+    ]
+}
