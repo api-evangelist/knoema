@@ -1,0 +1,249 @@
+{
+    "id": "d83600d6542f8ecf041a04af920f1439",
+    "name": "Knoema",
+    "description": null,
+    "auth": null,
+    "events": null,
+    "variables": [],
+    "order": [],
+    "folders_order": [],
+    "folders": [],
+    "requests": [
+        {
+            "id": "54bff8d8c54bab16e74af551982bfde4",
+            "name": "List of datasets",
+            "url": "httpknoema.com\/api\/1.0\/meta\/dataset",
+            "description": "Returns the list of datasets ",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "d83600d6542f8ecf041a04af920f1439",
+            "rawModeData": ""
+        },
+        {
+            "id": "c5486faee4b3426dc4203303e916a102",
+            "name": "Dataset details",
+            "url": "httpknoema.com\/api\/1.0\/meta\/dataset\/{dataset id}",
+            "description": "Lists out details of a particular dataset. ",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "d83600d6542f8ecf041a04af920f1439",
+            "rawModeData": ""
+        },
+        {
+            "id": "9322468262fa539da53535787ebc2fba",
+            "name": "Dimension",
+            "url": "httpknoema.com\/api\/1.0\/meta\/dataset\/{datasetId}\/dimension\/{dimensionId}",
+            "description": "Lists out the given dataset's dimension details. ",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "d83600d6542f8ecf041a04af920f1439",
+            "rawModeData": ""
+        },
+        {
+            "id": "c327b185da4299d9b29dbf0320175f00",
+            "name": "Dimension Group",
+            "url": "httpknoema.com\/api\/1.0\/meta\/group\/{groupKey}",
+            "description": "This endpoint used to list\/add\/edit\/delete groups in dimensions. The functionality of endpoint depends on HTTP method: GET, POST, PUT or DELETE.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "d83600d6542f8ecf041a04af920f1439",
+            "rawModeData": ""
+        },
+        {
+            "id": "212c9fd2dd4a38f154458b88539c797e",
+            "name": "List of tags",
+            "url": "httpknoema.com\/api\/1.0\/frontend\/tags",
+            "description": "Lists out all the public tags present in the system",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "d83600d6542f8ecf041a04af920f1439",
+            "rawModeData": ""
+        },
+        {
+            "id": "45513be2d032bbe521b563c4e6e4b4a0",
+            "name": "Get timeseries list",
+            "url": "httpknoema.com\/api\/1.0\/data\/dataset\/{dataset id}",
+            "description": "For the given dataset, this endpoint returns time series list for all the available frequencies with the combination of all the dimension members.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "dataset id",
+                    "description": "Unique dataset identifier ",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "d83600d6542f8ecf041a04af920f1439",
+            "rawModeData": ""
+        },
+        {
+            "id": "7dc1e47ea06e5e1c240a38c570d7c72a",
+            "name": "Get data",
+            "url": "httpknoema.com\/api\/1.0\/data\/get",
+            "description": "This endpoint returns observation data for the given filter.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "DatasetId",
+                    "description": "Unique dataset identifier ",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "d83600d6542f8ecf041a04af920f1439",
+            "rawModeData": ""
+        },
+        {
+            "id": "48877e615a7e45be8cc46fce38664084",
+            "name": "Search by keyword",
+            "url": "httpknoema.com\/api\/1.0\/search",
+            "description": "This namespace provides search details for data accessible by that user. ",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "query",
+                    "description": "search query for which data is required ",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "scope",
+                    "description": "String to specify the type of search results. The values can be : timeseries, page, presentation, datasetkey - scope=<datasetkey> will return the timseries results for the datasetkey provided",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "start",
+                    "description": "start (default 0) - number of the first result [0..99]",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "count",
+                    "description": "count (default 100) - number results count [0..100]",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "correct",
+                    "description": "correct (default true) - correct mistakes in the query or not",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "d83600d6542f8ecf041a04af920f1439",
+            "rawModeData": ""
+        }
+    ]
+}
