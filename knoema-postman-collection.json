@@ -1,5 +1,5 @@
 {
-    "id": "d83600d6542f8ecf041a04af920f1439",
+    "id": "d6a40d49b42fe54a913723e9705e718e",
     "name": "Knoema",
     "description": null,
     "auth": null,
@@ -10,7 +10,7 @@
     "folders": [],
     "requests": [
         {
-            "id": "54bff8d8c54bab16e74af551982bfde4",
+            "id": "d6aa99f6bcc586a62566ced20eba619f",
             "name": "List of datasets",
             "url": "httpknoema.com\/api\/1.0\/meta\/dataset",
             "description": "Returns the list of datasets ",
@@ -29,11 +29,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d83600d6542f8ecf041a04af920f1439",
+            "collectionId": "d6a40d49b42fe54a913723e9705e718e",
             "rawModeData": ""
         },
         {
-            "id": "c5486faee4b3426dc4203303e916a102",
+            "id": "0f394281f7e488052cb4973cd0e02fa9",
             "name": "Dataset details",
             "url": "httpknoema.com\/api\/1.0\/meta\/dataset\/{dataset id}",
             "description": "Lists out details of a particular dataset. ",
@@ -52,11 +52,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d83600d6542f8ecf041a04af920f1439",
+            "collectionId": "d6a40d49b42fe54a913723e9705e718e",
             "rawModeData": ""
         },
         {
-            "id": "9322468262fa539da53535787ebc2fba",
+            "id": "4f2192dba68d10dcf379091587b9d91d",
             "name": "Dimension",
             "url": "httpknoema.com\/api\/1.0\/meta\/dataset\/{datasetId}\/dimension\/{dimensionId}",
             "description": "Lists out the given dataset's dimension details. ",
@@ -75,11 +75,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d83600d6542f8ecf041a04af920f1439",
+            "collectionId": "d6a40d49b42fe54a913723e9705e718e",
             "rawModeData": ""
         },
         {
-            "id": "c327b185da4299d9b29dbf0320175f00",
+            "id": "ec1ad65d8c191167bffde5d5c2f243b4",
             "name": "Dimension Group",
             "url": "httpknoema.com\/api\/1.0\/meta\/group\/{groupKey}",
             "description": "This endpoint used to list\/add\/edit\/delete groups in dimensions. The functionality of endpoint depends on HTTP method: GET, POST, PUT or DELETE.",
@@ -98,11 +98,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d83600d6542f8ecf041a04af920f1439",
+            "collectionId": "d6a40d49b42fe54a913723e9705e718e",
             "rawModeData": ""
         },
         {
-            "id": "212c9fd2dd4a38f154458b88539c797e",
+            "id": "5608fce4d366223a8419cea9c734e5c6",
             "name": "List of tags",
             "url": "httpknoema.com\/api\/1.0\/frontend\/tags",
             "description": "Lists out all the public tags present in the system",
@@ -121,11 +121,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d83600d6542f8ecf041a04af920f1439",
+            "collectionId": "d6a40d49b42fe54a913723e9705e718e",
             "rawModeData": ""
         },
         {
-            "id": "45513be2d032bbe521b563c4e6e4b4a0",
+            "id": "10d1b1d922c15985e23248e30d8d1969",
             "name": "Get timeseries list",
             "url": "httpknoema.com\/api\/1.0\/data\/dataset\/{dataset id}",
             "description": "For the given dataset, this endpoint returns time series list for all the available frequencies with the combination of all the dimension members.",
@@ -152,11 +152,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d83600d6542f8ecf041a04af920f1439",
+            "collectionId": "d6a40d49b42fe54a913723e9705e718e",
             "rawModeData": ""
         },
         {
-            "id": "7dc1e47ea06e5e1c240a38c570d7c72a",
+            "id": "a63658f33a02d1150e8a4042c722ea93",
             "name": "Get data",
             "url": "httpknoema.com\/api\/1.0\/data\/get",
             "description": "This endpoint returns observation data for the given filter.",
@@ -183,11 +183,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d83600d6542f8ecf041a04af920f1439",
+            "collectionId": "d6a40d49b42fe54a913723e9705e718e",
             "rawModeData": ""
         },
         {
-            "id": "48877e615a7e45be8cc46fce38664084",
+            "id": "580d3511d9798b7206f470064e382784",
             "name": "Search by keyword",
             "url": "httpknoema.com\/api\/1.0\/search",
             "description": "This namespace provides search details for data accessible by that user. ",
@@ -242,7 +242,7 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d83600d6542f8ecf041a04af920f1439",
+            "collectionId": "d6a40d49b42fe54a913723e9705e718e",
             "rawModeData": ""
         }
     ]
